@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Insta-Sohor</title>
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <!-- Latest compiled and minified CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
@@ -15,6 +15,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 
     <body>
         <header>
@@ -55,18 +63,32 @@
         </main>
         <section class="container">
             <h3>Q1. How does JavaScript work?</h3>
-            <p>
-                Ans. JavaScript is a Client-side Scripting Language. That means it is a computer programming language that runs inside an Internet browser. The browser's rendering engine interacts with the "JavaScript Interpreter" and stands the JavaScript engine or JavaScript Interpreter comprises both an interoreter and a Just in Time compiler.The overall execution of the JavaScript is a five step process.
-                <ol>
-                    <li>JavaScript Engine loads source code.</li>
-                    <li>The interpreter starts the application.</li>
-                    <li>The compiler receives code.</li>
-                    <li>The compiler starts optimization and compilation.</li>
-                    <li>The compiler incrementally optimize the</li>
-                </ol>
-            </p>
+            <p>Ans. JavaScript is a Client-side Scripting Language. That means it is a computer programming language that runs inside an Internet browser. The browser's rendering engine interacts with the "JavaScript Interpreter" and stands the JavaScript engine or JavaScript Interpreter comprises both an interoreter and a Just in Time compiler.The overall execution of the JavaScript is a five step process.</p>
+            <ol>
+                <li>JavaScript Engine loads source code.</li>
+                <li>The interpreter starts the application.</li>
+                <li>The compiler receives code.</li>
+                <li>The compiler starts optimization and compilation.</li>
+                <li>The compiler incrementally optimize the</li>
+            </ol>
+            <h3>Q2. Difference between local storage and session storage.</h3>
+            <p>Ans.</p>
+            <table>
+                <tr>
+                    <th>Local Storage</th>
+                    <th>Session Storage</th>
+                </tr>
+                <tr>
+                    <td>The storage capacity of local storage is 5MB/10MB</td>
+                    <td>The storage capacity of session storage is 5MB</td>
+                </tr>
+                <tr>
+                    <td>As it is not session-based, it must be deleted via javascript or manually</td>
+                    <td>It is session-based and works per window or tab. This means that data is stored only for the duration of a session, until the browser is closed</td>
+                </tr>
+            </table>
         </section>
-        
+
         <footer></footer>
 
         <!-- add javascript  file  -->
